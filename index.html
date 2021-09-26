@@ -9,18 +9,35 @@
   </head>
   <body>
     
+
+    <section class="section center-container blog-section git-blog" >
+        <div class="center-container">
+            <h2 class="section-header" id="toc">Table of Contents
+            </h2>
+            <ul id="blog-toc-list">
+                <li class="blog-list-item"><a href="#1">GIT</a></li>
+                <li class="blog-list-item"><a href="#2">What is purpose of Git?</a></li>
+                <li class="blog-list-item"><a href="#3">Who uses Git?</a></li>
+                <li class="blog-list-item"><a href="#4">Git vs GitHub</a></li>
+                <li class="blog-list-item"><a href="#5">GitHub</a></li>
+                <li class="blog-list-item"><a href="#6">Git commands</a></li>
+                <li class="blog-list-item"><a href="#7">Some good practices for meaningful commit messages</a></li>
+              </ul>
+        </div>
+    </section>
     <section class="section ow center-container blog-section git-blog">
+        
 
       <div class="center-container">
-        <h2 class="section-header">GIT</h2>
+        <h2 id="1" class="section-header">GIT</h2>
         <p><dfn>GIT</dfn> is a global information tracker.I highly recommend you to google it to get to know about various other funny and strange abbreviations git has! Now, coming to the pronunciation  g in git is pronounced as "ghee"... except single e in that meaning pronounced as "ghe" and "it" is pronounced as just regular "it" nothing special about that</p>
         
 
-        <h2 class="section-header">What is purpose of Git?</h2>
+        <h2 id="2"  class="section-header">What is purpose of Git?</h2>
         <p><dfn>GIT</dfn> is a tool that keeps track of various versions of your project and hence known as VCS (Version Control System). Also, it is open-source and free to use!!<br/><strong> Speaking of open-source and free to use: </strong>"It is developed by this great man <strong>Linus Torvalds</strong>" And yes he's the same person who gave us the "LINUX" which is also open-source and free to use Operating System.</p></p>
         
 
-        <h2 class="section-header">Who uses Git?</h2>
+        <h2 id="3"  class="section-header">Who uses Git?</h2>
         
         
           <ul>
@@ -31,7 +48,7 @@
           </ul>
         
 
-        <h2>Git vs GitHub</h2>
+        <h2 id="4" >Git vs GitHub</h2>
         <p>Now this a common confusion in most of the people.They assume that both Git and GitHub are the same.</p>
         
         <h3>Example</h3>
@@ -39,7 +56,7 @@
         Assume you are using Git to track various versions or features of your project. Now git runs in your local machine and <strong>only you</strong> can see all the history of changes you've made to your code and could keep track of it. Now if you want to share all those versions or changes to your friend or colleague who's located somewhere else what you would do? Ofcourse we can book a flight ticket and go to him/her with our laptop right ? What if I say there's a tool which saves your flight ticket!? Yes there is one and it is called <strong>"GITHUB".</strong>
         </p>
         <p>
-          <h2>GitHub</h2>
+          <h2 id="5" >GitHub</h2>
           <p><dfn>GitHub</dfn> is a service which stores your local git repo (repo or repository is git workspace) on the cloud. And hence it requires internet to push your local folders into Github. It also helps in collaborating with other people. Now, inorder to collaborate other people should be able to identify that it's you right? Hence Github needs an account.
         Whereas git doesn't require internet or account. Just download it in your local machine and start working with it. And the limitation ?? It's already discussed: You won't be able to share your changes or collaborate with others if you're only using git and not github.
         </p>
@@ -58,7 +75,7 @@ separate fan base! </strong> And it's also good to start using git with CLI firs
 That doesn't simply mean that you are using git. To use it and track various changes and history of all the actions that are done in that project we need to initialize a git repository in that project. We can have different repos and all these will not be connected.
  </p>
 
-<h2>Git commands</h2>
+<h2 id="6" >Git commands</h2>
 
 <p>
 Let's see some of the git commands... inorder to start using git in your project go to the root directory of your project and execute 
@@ -166,7 +183,7 @@ which gives the list of files that are committed.
 
  
 
-<h2 class="section-header">Some good practices for meaningful commit messages:</h2>
+<h2 id="7" class="section-header">Some good practices for meaningful commit messages:</h2>
         
         
           <table>
@@ -228,5 +245,6 @@ which gives the list of files that are committed.
         </li>
       </ul>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>

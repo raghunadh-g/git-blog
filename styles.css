@@ -163,3 +163,11 @@ hr {
   height: 3rem;
   border-radius: 50%;
 }
+
+.hide {
+  display: none;
+}
+
+#toc:hover {
+  cursor: pointer;
+}
